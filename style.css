@@ -1,0 +1,515 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Banner start */
+
+.header-area {
+
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.header-area .banner-text {
+    padding: 177px 344px;
+    text-align: center;
+}
+
+.header-area .banner-text h3 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-area .banner-text h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+/* Banner end */
+
+
+
+/* Discount  start */
+
+.dis-section {
+    padding: 120px 399px;
+}
+
+.dis-section .discount h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.dis-section .discount h6 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.dis-section .discount h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.dis-section .discount img {
+    align-items: center;
+    width: 82%;
+    max-width: 1320px;
+    margin: 10px auto;
+}
+
+.dis-section .discount .discount-text {
+    margin-top: 48px;
+}
+
+/* Discount end */
+
+.midnight-party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.midnight-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 68px 126px;
+}
+
+.midnight-party h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 60px;
+}
+
+.midnight-party p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.midnight-party strong {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+/* Join start */
+
+.join-section {
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 120px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.join-section .join-section-text {
+    padding: 105px 385px;
+}
+
+
+.join-section p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #F00;
+}
+
+.join-section button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 48px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Join end */
+
+
+
+/* NEW BEST OFFER coming soon start */
+
+.coming-soon-section .coming-soon {
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 120px auto;
+}
+
+.coming-soon-section .coming-soon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coming-soon-section .coming-soon .coming-text1 h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon-section .coming-soon .coming-text2 h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-section .coming-soon .coming-text1>p,
+.coming-text2>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.coming-soon-section .coming-soon .coming-img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    border: 15px solid #F00;
+    padding: 15px;
+}
+
+/* NEW BEST OFFER coming soon end */
+
+
+/* holiday work start */
+
+.holiday b {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday .holiday-section .holiday-text {
+    text-align: center;
+    padding: 120px 266px;
+}
+
+.holiday {
+    max-width: 1320px;
+    max-height: 1050px;
+    margin: 120px auto;
+}
+
+
+.holiday .holiday-section .holiday-img .giftbox {
+    width: 98.77px;
+    height: 145.319px;
+    flex-shrink: 0;
+}
+
+.holiday .holiday-section .holiday-img .three-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.holiday .holiday-section .holiday-img .three-img {
+    margin-top: 0px;
+    position: relative;
+}
+
+.holiday .holiday-section .holiday-img .three-img .discount {
+    margin-left: 777px;
+    margin-right: 425px;
+    position: absolute;
+}
+
+/* holiday work end */
+
+
+/* Gift section start */
+
+.Gift-section {
+    padding: 120px 140px;
+    width: 82%;
+    max-width: 1320px;
+    max-height: 1000px;
+    margin: 50px auto;
+}
+
+
+
+/* .Gift-section .gift-text  */
+h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Gift-section .gift-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Gift-section .gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.Gift-section .gift-img .imggroup-1,
+.imggroup-2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.Gift-section .gift-img .box {
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    transform: .5s;
+
+}
+
+.Gift-section .gift-img .box img {
+    display: block;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+
+/* Gift section  end */
+
+
+/* Subscribe Newsletter start */
+
+.subscribe {
+    max-width: 1200px;
+    max-height: 616px;
+    margin: 120px auto;
+    padding: 120px 100px;
+    border-radius: 16px;
+    width: 82%;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.subscribe button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.subscribe button {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background-color: #001a4b;
+    color: white;
+    animation: bubble 0.4s ease-out;
+}
+
+.subscribe .email-text {
+    display: flex;
+}
+
+.subscribe .email-text input {
+    flex-grow: 1;
+    border-radius: 50px 0px 0px 50px;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    border: none;
+
+}
+
+.subscribe .subs-text {
+    padding: 80px 212px;
+}
+
+/* Subscribe Newsletter end */
+
+
+
+/* footer start */
+
+
+.footerr {
+    background: #070211;
+}
+
+.footerr .footer-part {
+    width: 82%;
+    max-width: 1320px;
+    height: 609px;
+    margin: 0px auto;
+    padding: 120px 140px;
+}
+
+.footerr p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px
+}
+
+.footerr .footer-part .contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerr .footer-part .contact-info .call,
+.website {
+    display: flex;
+}
+
+.footerr .footer-part .conact-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footerr .footer-part .all-rights {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerr .footer-part .all-rights,
+.contact-info,
+.conact-images,
+hr {
+    margin-bottom: 48px;
+}
+
+/* footer work end*/
